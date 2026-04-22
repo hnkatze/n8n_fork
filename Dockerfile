@@ -1,11 +1,5 @@
 FROM n8nio/n8n:latest
 
-USER root
-
-RUN apk add --no-cache tzdata
-
-USER node
-
 ENV NODE_ENV=production \
     N8N_PORT=5678 \
     N8N_PROTOCOL=https \

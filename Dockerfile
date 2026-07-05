@@ -1,4 +1,4 @@
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:2.28.6
 
 ENV NODE_ENV=production \
     N8N_PORT=5678 \
